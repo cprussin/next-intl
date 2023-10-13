@@ -3,6 +3,61 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.21.0](https://github.com/amannn/next-intl/compare/v2.20.2...v2.21.0) (2023-10-13)
+
+
+### Bug Fixes
+
+* **RSC:** Return `string` from `(await getTranslator()).rich` ([#395](https://github.com/amannn/next-intl/issues/395)) ([b423baa](https://github.com/amannn/next-intl/commit/b423baa7e6fb23ea241a547f64e75f2a1d2c0ad5))
+
+
+### Features
+
+* Add built-in pathname localization ([#426](https://github.com/amannn/next-intl/issues/426)) ([f408d92](https://github.com/amannn/next-intl/commit/f408d92d927b27ffe41d7489b488485e94f3a35d))
+* **RSC:** Optimize bundle size ([#489](https://github.com/amannn/next-intl/issues/489)) ([e475cb2](https://github.com/amannn/next-intl/commit/e475cb24810e4a4c41426f2949a3563a208bceda))
+* **RSC:** Remove deprecations and RSC-first docs ([#522](https://github.com/amannn/next-intl/issues/522)) ([549dc17](https://github.com/amannn/next-intl/commit/549dc178a3415c06e8330a600d9213d63c1c92fb))
+
+
+
+# [2.13.0-beta.2](https://github.com/amannn/next-intl/compare/v2.13.0-beta.1...v2.13.0-beta.2) (2023-04-06)
+
+
+
+# [2.13.0-beta.1](https://github.com/amannn/next-intl/compare/v2.12.0...v2.13.0-beta.1) (2023-04-05)
+
+
+
+# [2.12.0-beta.1](https://github.com/amannn/next-intl/compare/v2.12.0-alpha.1...v2.12.0-beta.1) (2023-03-06)
+
+
+
+# [2.12.0-alpha.1](https://github.com/amannn/next-intl/compare/v2.11.0...v2.12.0-alpha.1) (2023-03-06)
+
+
+### Reverts
+
+* Revert "v2.11.0-alpha.2" ([4fb3aea](https://github.com/amannn/next-intl/commit/4fb3aea071e959f55db2c30fab37783257b9b29c))
+
+
+
+# [2.11.0-alpha.2](https://github.com/amannn/next-intl/compare/v2.10.2...v2.11.0-alpha.2) (2022-12-09)
+
+
+
+# [2.11.0-alpha.1](https://github.com/amannn/next-intl/compare/v2.10.1...v2.11.0-alpha.1) (2022-12-09)
+
+
+
+# [2.10.0-alpha.4](https://github.com/amannn/next-intl/compare/v2.9.2...v2.10.0-alpha.4) (2022-12-09)
+
+
+
+# [2.10.0-alpha.3](https://github.com/amannn/next-intl/compare/v2.9.1...v2.10.0-alpha.3) (2022-12-08)
+
+
+
+
+
 ## 2.20.2 (2023-09-22)
 
 
