@@ -3,6 +3,120 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](/compare/v2.20.2...v3.0.0) (2023-10-13)
+
+
+### Bug Fixes
+
+* Allow unknown routes in localized pathnames navigation APIs (#493) 3481a59, closes #493
+* Fix type signature of the plugin and improve condition for printing a warning in case a legacy i18n config is in use (#241) de5115c, closes #241
+* **Next.js 13 RSC:** Improvements for routing APIs (#277) 23f44e2, closes #277
+* **RSC:** Always read header in RSC render (#506) 37c131b, closes #506
+* **RSC:** Remove pages router import and require explicit `locale` when used in Pages Router (#520) 4f93607, closes #520
+* **RSC:** Return `string` from `(await getTranslator()).rich` (#395) b423baa, closes #395
+
+
+### Features
+
+* Add built-in pathname localization (#426) f408d92, closes #426
+* Expose rewrite option as a config c42c4fa
+* Improvements for localized `Link` (#257) a08b91b, closes #257
+* New APIs for using `next-intl` outside of components (#339) 0f3116b, closes #339
+* **RSC:** Add `getPathname` for localized navigation (#510) 50cd7ee, closes #510
+* **RSC:** Add CDN caching patch (#311) 017fd93, closes #311
+* **RSC:** Add defaults for `locale`, `now` and `timeZone` for `NextIntlClientProvider` when used from RSC (#517) 9697c3c, closes #517
+* **RSC:** Add support for `redirect` in Client Components 4b61c06
+* **RSC:** Better error handling for missing context (#508) 106c098, closes #508
+* **RSC:** Experimental SSG (#509) 6836f20, closes #509
+* **RSC:** Optimize bundle size (#489) e475cb2, closes #489
+* **RSC:** Remove deprecations and RSC-first docs (#522) 549dc17, closes #522
+
+
+### Reverts
+
+* Revert "chore(Next.js 13 RSC): Switch to tsup for bundling" e4b2275
+
+
+
+# [2.13.0-beta.2](/compare/v2.13.0-beta.1...v2.13.0-beta.2) (2023-04-06)
+
+
+
+# [2.13.0-beta.1](/compare/v2.12.0...v2.13.0-beta.1) (2023-04-05)
+
+
+### Features
+
+* Improve locale detection for prefixed routing (#214) 3d7cc1d, closes #214
+* Improve named routes implementation (#213) 666c1df, closes #213
+* Next.js 13 RSC Domain middleware improvements (#223) 36ae25d, closes #223
+* Next.js 13 RSC middleware improvements (#212) cc6c9b8, closes #212
+
+
+
+# [2.12.0-beta.1](/compare/v2.12.0-alpha.1...v2.12.0-beta.1) (2023-03-06)
+
+
+
+# [2.12.0-alpha.1](/compare/v2.11.0...v2.12.0-alpha.1) (2023-03-06)
+
+
+### Bug Fixes
+
+* Add tests to ensure links work and downgrade Next.js (#196) e0bd177, closes #196
+* Handle invalid `accept-language` header gracefully (#192) 9b564f9, closes #192
+
+
+### Features
+
+* Add example with `pages` and `app` directory (#175) cc7c295, closes #175
+* Awaitables for Next.js 13 RSC integration (#184) 44af8ab, closes #184
+* Improve landing page design (#207) e076182, closes #207
+* Next.js 13 RSC routing clean up & add `redirect` (#187) f8fefd2, closes #187
+* Return alternate language links as headers from middleware (#195) f55424a, closes #195
+* Unprefixed routing for default locale & domain-based locale matching (#186) 68ce7db, closes #186
+
+
+### Reverts
+
+* Revert "3.0.0-beta.1" 643af24
+
+
+
+# [2.11.0-beta.6](/compare/v2.11.0-alpha.2...v2.11.0-beta.6) (2023-02-01)
+
+
+### Features
+
+* RSC with static config (#156) d043943, closes #156 #152 #154
+
+
+### Reverts
+
+* Revert "Remove `next-intl` unit tests as we're moving to e2e tests" b375b4f
+* Revert "Fix lint" 1d385fe
+* Revert "v2.11.0-alpha.2" 4fb3aea
+
+
+
+# [2.11.0-alpha.2](/compare/v2.10.2...v2.11.0-alpha.2) (2022-12-09)
+
+
+
+# [2.11.0-alpha.1](/compare/v2.10.1...v2.11.0-alpha.1) (2022-12-09)
+
+
+
+# [2.10.0-alpha.4](/compare/v2.9.2...v2.10.0-alpha.4) (2022-12-09)
+
+
+
+# [2.10.0-alpha.3](/compare/v2.9.1...v2.10.0-alpha.3) (2022-12-08)
+
+
+
+
+
 ## 2.20.2 (2023-09-22)
 
 

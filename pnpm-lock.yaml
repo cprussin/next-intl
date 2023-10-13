@@ -489,7 +489,7 @@ importers:
   packages/next-intl:
     dependencies:
       '@cprussin/use-intl':
-        specifier: 2.20.2
+        specifier: ^3.0.0
         version: link:../use-intl
       '@formatjs/intl-localematcher':
         specifier: ^0.2.32
