@@ -1,5 +1,5 @@
+import {createFormatter} from '@cprussin/use-intl/core';
 import {cache} from 'react';
-import {createFormatter} from 'use-intl/core';
 import {getRequestLocale} from './RequestLocale';
 import getConfig from './getConfig';
 

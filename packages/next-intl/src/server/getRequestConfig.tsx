@@ -1,4 +1,4 @@
-import type {IntlConfig} from 'use-intl/core';
+import type {IntlConfig} from '@cprussin/use-intl/core';
 
 type RequestConfig = Omit<IntlConfig, 'locale'>;
 

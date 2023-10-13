@@ -1,4 +1,4 @@
-import type {useMessages as useMessagesType} from 'use-intl';
+import type {useMessages as useMessagesType} from '@cprussin/use-intl';
 import getMessages from '../server/getMessages';
 import useHook from './useHook';
 import useLocale from './useLocale';

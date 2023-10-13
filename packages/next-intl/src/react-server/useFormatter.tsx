@@ -1,4 +1,4 @@
-import type {useFormatter as useFormatterType} from 'use-intl';
+import type {useFormatter as useFormatterType} from '@cprussin/use-intl';
 import getFormatter from '../server/getFormatter';
 import useHook from './useHook';
 import useLocale from './useLocale';

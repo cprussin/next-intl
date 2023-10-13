@@ -1,4 +1,4 @@
-import type {useTimeZone as useTimeZoneType} from 'use-intl';
+import type {useTimeZone as useTimeZoneType} from '@cprussin/use-intl';
 import getTimeZone from '../server/getTimeZone';
 import useHook from './useHook';
 import useLocale from './useLocale';

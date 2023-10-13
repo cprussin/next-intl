@@ -1,4 +1,4 @@
-import type {useNow as useNowType} from 'use-intl';
+import type {useNow as useNowType} from '@cprussin/use-intl';
 import getNow from '../server/getNow';
 import useHook from './useHook';
 import useLocale from './useLocale';

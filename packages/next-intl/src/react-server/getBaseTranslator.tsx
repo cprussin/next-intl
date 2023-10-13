@@ -1,4 +1,3 @@
-import {ReactElement, ReactNodeArray, cache} from 'react';
 import {
   Formats,
   TranslationValues,
@@ -8,7 +7,8 @@ import {
   NestedKeyOf,
   NestedValueOf,
   createBaseTranslator
-} from 'use-intl/core';
+} from '@cprussin/use-intl/core';
+import {ReactElement, ReactNodeArray, cache} from 'react';
 import getConfig from '../server/getConfig';
 
 const getMessageFormatCache = cache(() => new Map());

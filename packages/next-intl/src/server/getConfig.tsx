@@ -1,5 +1,5 @@
+import {initializeConfig} from '@cprussin/use-intl/core';
 import {cache} from 'react';
-import {initializeConfig} from 'use-intl/core';
 import createRequestConfig from '../server/createRequestConfig';
 
 // Make sure `now` is consistent across the request in case none was configured

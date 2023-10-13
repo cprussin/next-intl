@@ -1,4 +1,3 @@
-import {cache} from 'react';
 import {
   createTranslator,
   Formats,
@@ -8,7 +7,8 @@ import {
   NamespaceKeys,
   NestedKeyOf,
   NestedValueOf
-} from 'use-intl/core';
+} from '@cprussin/use-intl/core';
+import {cache} from 'react';
 import getConfig from './getConfig';
 
 let hasWarned = false;

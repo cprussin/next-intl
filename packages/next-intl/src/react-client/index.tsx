@@ -11,9 +11,9 @@
 import {
   useTranslations as base_useTranslations,
   useFormatter as base_useFormatter
-} from 'use-intl';
+} from '@cprussin/use-intl';
 
-export * from 'use-intl';
+export * from '@cprussin/use-intl';
 
 // eslint-disable-next-line @typescript-eslint/ban-types
 function callHook(name: string, hook: Function) {
@@ -39,7 +39,7 @@ export const useFormatter = callHook(
   base_useFormatter
 ) as typeof base_useFormatter;
 
-// Replace `useLocale` export from `use-intl`
+// Replace `useLocale` export from `@cprussin/use-intl`
 export {default as useLocale} from './useLocale';
 
 export {default as NextIntlClientProvider} from '../shared/NextIntlClientProvider';

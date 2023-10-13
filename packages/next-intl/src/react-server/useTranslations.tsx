@@ -1,4 +1,4 @@
-import type {useTranslations as useTranslationsType} from 'use-intl';
+import type {useTranslations as useTranslationsType} from '@cprussin/use-intl';
 import getBaseTranslator from './getBaseTranslator';
 import useHook from './useHook';
 import useLocale from './useLocale';

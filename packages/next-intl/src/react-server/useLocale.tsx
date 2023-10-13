@@ -1,4 +1,4 @@
-import type {useLocale as useLocaleType} from 'use-intl';
+import type {useLocale as useLocaleType} from '@cprussin/use-intl';
 import {getRequestLocale} from '../server/RequestLocale';
 
 export default function useLocale(
